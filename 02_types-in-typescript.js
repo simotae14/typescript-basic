@@ -49,3 +49,10 @@ var sing = function () {
 var error = function () {
     throw Error('oops');
 };
+var fightRobotArmy = function (robot) {
+    console.log('FIGHT!');
+};
+// Equivalent to write
+var fightRobotArmy2 = function (robot) {
+    console.log('FIGHT!');
+};
