@@ -53,7 +53,7 @@ let error = (): never => {
 interface RobotArmy {
     count: number,
     type: string,
-    magic: string
+    magic?: string
 }
 
 let fightRobotArmy = (robot: RobotArmy) => {
@@ -64,8 +64,20 @@ let fightRobotArmy2 = (robot: { count: number, type: string, magic: string }) =>
     console.log('FIGHT!');
 }
 
+fightRobotArmy({ count: 1, type: 'dragon'});
+
 type RobotArmy2 = {
     count: number,
     type: string,
     magic: string
 }
+
+// Type Assertion
+interface CatArmy {
+    count: number,
+    type: string,
+    magic: string
+}
+
+let dog = {} as CatArmy
+dog.count

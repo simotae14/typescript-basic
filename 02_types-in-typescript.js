@@ -56,3 +56,6 @@ var fightRobotArmy = function (robot) {
 var fightRobotArmy2 = function (robot) {
     console.log('FIGHT!');
 };
+fightRobotArmy({ count: 1, type: 'dragon' });
+var dog = {};
+dog.count;
