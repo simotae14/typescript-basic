@@ -31,3 +31,20 @@ let sizeName: string = Size[2]; // Medium
 
 enum Size2 { Small = 1, Medium = 2, Large = 3 };
 let sizeNumber: number = Size.Small; // 1
+
+// ANY - !!!!!!!!!! BE CAREFUL
+let whatever: any = 'aghhhhhhhhhhh nooooooooooo!!!';
+whatever = 5;
+whatever = true;
+whatever = Size.Small;
+whatever = basket;
+
+// VOID
+let sing = (): void => {
+    console.log('lalalalallala');
+}
+
+// NEVER
+let error = (): never => {
+    throw Error('oops');
+}

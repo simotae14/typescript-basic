@@ -35,3 +35,17 @@ var Size2;
 })(Size2 || (Size2 = {}));
 ;
 var sizeNumber = Size.Small; // 1
+// ANY - !!!!!!!!!! BE CAREFUL
+var whatever = 'aghhhhhhhhhhh nooooooooooo!!!';
+whatever = 5;
+whatever = true;
+whatever = Size.Small;
+whatever = basket;
+// VOID
+var sing = function () {
+    console.log('lalalalallala');
+};
+// NEVER
+var error = function () {
+    throw Error('oops');
+};
