@@ -110,3 +110,7 @@ lion.sing;
 
 // UNION
 let confused: string | number | boolean = true;
+
+// TYPE INFERENCE
+let x = 4;
+x = 5;

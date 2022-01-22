@@ -83,3 +83,6 @@ lion.greet();
 lion.sing;
 // UNION
 var confused = true;
+// TYPE INFERENCE
+var x = 4;
+x = 5;
