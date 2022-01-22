@@ -67,3 +67,17 @@ var fightRobotArmy4 = function (robot) {
     console.log('FIGHT!');
     return 5;
 };
+// Classes
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = 'allalalalal';
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "Hello ".concat(this.sing);
+    };
+    return Animal;
+}());
+var lion = new Animal('RAAAWWWR');
+lion.greet();
+lion.sing;

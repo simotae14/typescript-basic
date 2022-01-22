@@ -91,3 +91,19 @@ let fightRobotArmy4 = (robot: { count: number, type: string, magic: string }): n
     console.log('FIGHT!');
     return 5;
 }
+
+// Classes
+class Animal {
+    public sing: string = 'allalalalal';
+    constructor(sound: string) {
+        this.sing = sound;
+    }
+
+    greet(): string {
+        return `Hello ${this.sing}`;
+    }
+}
+
+let lion = new Animal('RAAAWWWR');
+lion.greet();
+lion.sing;
