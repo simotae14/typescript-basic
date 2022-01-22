@@ -59,3 +59,11 @@ var fightRobotArmy2 = function (robot) {
 fightRobotArmy({ count: 1, type: 'dragon' });
 var dog = {};
 dog.count;
+// FUNCTIONS
+var fightRobotArmy3 = function (robot) {
+    console.log('FIGHT!');
+};
+var fightRobotArmy4 = function (robot) {
+    console.log('FIGHT!');
+    return 5;
+};

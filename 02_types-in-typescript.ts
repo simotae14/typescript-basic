@@ -81,3 +81,13 @@ interface CatArmy {
 
 let dog = {} as CatArmy
 dog.count
+
+// FUNCTIONS
+let fightRobotArmy3 = (robot: RobotArmy): void => {
+    console.log('FIGHT!');
+}
+
+let fightRobotArmy4 = (robot: { count: number, type: string, magic: string }): number => {
+    console.log('FIGHT!');
+    return 5;
+}
