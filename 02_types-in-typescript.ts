@@ -107,3 +107,6 @@ class Animal {
 let lion = new Animal('RAAAWWWR');
 lion.greet();
 lion.sing;
+
+// UNION
+let confused: string | number | boolean = true;
